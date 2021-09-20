@@ -66,6 +66,7 @@ $(document).ready(function(){
 
 	//Nice scroll initialization
 	$("html").niceScroll({
+		passive: true,
 		scrollspeed: 50,
 		autohidemode : false,
 		cursorwidth : 8,
